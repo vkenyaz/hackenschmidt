@@ -1,8 +1,8 @@
 # Hackenschmidt
 
-REPL tool I made for myself to track my workouts and bodyweight, the data is
-stored in an SQLite database. This is my first project in Tcl, I wanted to get a
-feel for it, I quite like it.
+REPL tool I made for myself to track my workouts, sleep, and bodyweight, the
+data is stored in an SQLite database. This is my first project in Tcl, I wanted
+to get a feel for it, I quite like it.
 
 ## Showcase
 
@@ -16,6 +16,11 @@ la - list activities
 lw - list weight overtime
 ra {id} - remove an activity
 rw {id} - remove a weight report
+r {optional comment} - toggle sleep tracking
+rr {id} - remove a sleep record
+lr - list sleep records
+s - Summarize status
+E {table} - export an SQLite table to a CSV file of the same name
 q - quit gracefully
 ```
 
